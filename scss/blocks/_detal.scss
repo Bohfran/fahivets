@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-    
 
     &-one{
         width: 360px;
@@ -14,6 +13,11 @@
     &-item{
         display: flex;
         margin-bottom: 25px;
+
+        &__images{
+           margin-right: 20px;
+        }
+        
     }
 
     &-two{

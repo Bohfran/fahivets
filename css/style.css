@@ -35,7 +35,8 @@ body {
   max-width: 250px; }
 
 .button-o {
-  max-width: 350px; }
+  max-width: 350px;
+  cursor: pointer; }
 
 .link {
   text-decoration: none;
@@ -333,6 +334,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 25px; }
+    .detal-item__images {
+      margin-right: 20px; }
   .detal-two {
     display: -webkit-box;
     display: -ms-flexbox;
