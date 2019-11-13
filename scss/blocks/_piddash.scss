@@ -1,0 +1,30 @@
+.piddash{
+    &-wrap{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    &__item{
+        flex-basis: 20%;
+        padding: 15px;
+        min-width: 185px;
+    }
+
+    &-text{
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 620px){
+    .piddash{
+        &__item{
+            flex-basis: 50%;
+            margin-top: 50px;
+        }
+    }
+}

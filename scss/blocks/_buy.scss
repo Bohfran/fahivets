@@ -1,0 +1,30 @@
+.buy{
+    background-color: #466ae4;
+    margin-top: 350px;
+    padding-top: 300px;
+
+    &-video{
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        top: -650px;
+
+    }
+}
+
+.video_wrap{
+    height: 100%;
+}
+
+.video{
+    height: 100%;
+}
+
+.white{
+    color: #fff;
+}
+
+
+.container{
+    position: relative;
+}

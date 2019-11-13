@@ -1,0 +1,21 @@
+.foto{
+    &-wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+
+        &__item{
+            overflow: hidden;
+            max-height: 200px;
+            margin: 15px;
+
+            
+        }
+        &__item img{ 
+            border-radius: 5px;
+        
+
+        }
+    }
+}

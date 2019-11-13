@@ -1,0 +1,38 @@
+body{
+    font-family: 'Montserrat';
+    
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1085px;
+    margin: auto;
+    width: 100%;
+}
+
+@media (max-width: 1199px){
+   .container{
+       max-width: 960px;
+   }
+}
+
+@media (max-width: 991px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 770px){
+    .container{
+        max-width: 100%;
+      
+    }
+}
+
+

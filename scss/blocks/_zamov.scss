@@ -1,0 +1,54 @@
+.zamov{
+   background-color: #466ae4;
+
+   &-wrap{
+       display: flex;
+       justify-content: space-between;
+       text-align: center;
+       align-items: center;
+
+       &__item{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+        //    flex-basis: 20%;
+           margin: 10px;
+           width: 230px;
+       }
+
+       &__arrow{
+        max-width: 10px;
+
+       }
+
+       &__text{
+           margin-top: 10px;
+       }
+   }
+
+//    &-but{
+       
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     padding: 20px;
+//    }
+
+}
+
+
+@media (max-width: 770px){
+    .zamov-wrap{
+       flex-wrap: wrap;
+       color: #fff;
+        justify-content: space-evenly;
+        &__arrow{
+            display: none;
+        }
+    }
+
+    .video{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

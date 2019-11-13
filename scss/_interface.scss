@@ -1,0 +1,42 @@
+.button{
+    padding: 20px 38px;
+    background-color: #f04040;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 250px;
+}
+
+.button-o{
+    max-width: 350px;
+}
+
+
+.but{
+    margin: 0 auto;
+    text-transform: uppercase;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.section{
+    &-title{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: #466ae4;
+        margin-bottom: 25px;
+        padding-top: 50px;
+    }
+
+    &-text{
+        display: block;
+        
+    }
+}

@@ -1,0 +1,53 @@
+.detal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+
+    &-one{
+        width: 360px;
+        padding-top: 50px;
+    }
+   
+
+    &-item{
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    &-two{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    &-title{
+        font-size: 20px;
+        color: #466ae4;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+}
+
+
+@media (max-width: 991px){
+
+    .detal{
+        justify-content: center;
+    }
+    .detal-one{
+
+        width: 90%;
+    }
+
+    .detal-two{
+       
+        justify-content: center;
+        
+    }
+
+    .detal-two img{
+        width: 100%;
+    }
+}
